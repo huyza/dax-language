@@ -12,7 +12,7 @@
     "publisher": "huyza",
     "repository": {
 		"type": "git",
-		"url": "https://github.com/microsoft/pylance-release"
+		"url": "https://github.com/huyza/dax-language"
 	},
     "keywords": [
         "dax"
