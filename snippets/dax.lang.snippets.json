@@ -1,0 +1,2417 @@
+{
+  "YIELDMAT": {
+     "prefix": "YIELDMAT",
+     "body": [
+        "YIELDMAT"
+     ],
+     "description": "YIELDMAT ( <Settlement>, <Maturity>, <Issue>, <Rate>, <Pr> [, <Basis>] )"
+  },
+  "YIELDDISC": {
+     "prefix": "YIELDDISC",
+     "body": [
+        "YIELDDISC"
+     ],
+     "description": "YIELDDISC ( <Settlement>, <Maturity>, <Pr>, <Redemption> [, <Basis>] )"
+  },
+  "YIELD": {
+     "prefix": "YIELD",
+     "body": [
+        "YIELD"
+     ],
+     "description": "YIELD ( <Settlement>, <Maturity>, <Rate>, <Pr>, <Redemption>, <Frequency> [, <Basis>] )"
+  },
+  "YEARFRAC": {
+     "prefix": "YEARFRAC",
+     "body": [
+        "YEARFRAC"
+     ],
+     "description": "YEARFRAC ( <StartDate>, <EndDate> [, <Basis>] )"
+  },
+  "YEAR": {
+     "prefix": "YEAR",
+     "body": [
+        "YEAR"
+     ],
+     "description": "YEAR ( <Date> )"
+  },
+  "XNPV": {
+     "prefix": "XNPV",
+     "body": [
+        "XNPV"
+     ],
+     "description": "XNPV ( <Table>, <Values>, <Dates>, <Rate> )"
+  },
+  "XIRR": {
+     "prefix": "XIRR",
+     "body": [
+        "XIRR"
+     ],
+     "description": "XIRR ( <Table>, <Values>, <Dates> [, <Guess>] )"
+  },
+  "WEEKNUM": {
+     "prefix": "WEEKNUM",
+     "body": [
+        "WEEKNUM"
+     ],
+     "description": "WEEKNUM ( <Date> [, <ReturnType>] )"
+  },
+  "WEEKDAY": {
+     "prefix": "WEEKDAY",
+     "body": [
+        "WEEKDAY"
+     ],
+     "description": "WEEKDAY ( <Date> [, <ReturnType>] )"
+  },
+  "VDB": {
+     "prefix": "VDB",
+     "body": [
+        "VDB"
+     ],
+     "description": "VDB ( <Cost>, <Salvage>, <Life>, <Start_period>, <End_period> [, <Factor>] [, <No_switch>] )"
+  },
+  "VARX.S": {
+     "prefix": "VARX.S",
+     "body": [
+        "VARX.S"
+     ],
+     "description": "VARX.S ( <Table>, <Expression> )"
+  },
+  "VARX.P": {
+     "prefix": "VARX.P",
+     "body": [
+        "VARX.P"
+     ],
+     "description": "VARX.P ( <Table>, <Expression> )"
+  },
+  "VAR.S": {
+     "prefix": "VAR.S",
+     "body": [
+        "VAR.S"
+     ],
+     "description": "VAR.S ( <ColumnName> )"
+  },
+  "VAR.P": {
+     "prefix": "VAR.P",
+     "body": [
+        "VAR.P"
+     ],
+     "description": "VAR.P ( <ColumnName> )"
+  },
+  "VALUES": {
+     "prefix": "VALUES",
+     "body": [
+        "VALUES"
+     ],
+     "description": "VALUES ( <TableNameOrColumnName> )"
+  },
+  "VALUE": {
+     "prefix": "VALUE",
+     "body": [
+        "VALUE"
+     ],
+     "description": "VALUE ( <Text> )"
+  },
+  "UTCTODAY": {
+     "prefix": "UTCTODAY",
+     "body": [
+        "UTCTODAY"
+     ],
+     "description": "UTCTODAY (  )"
+  },
+  "UTCNOW": {
+     "prefix": "UTCNOW",
+     "body": [
+        "UTCNOW"
+     ],
+     "description": "UTCNOW (  )"
+  },
+  "USERPRINCIPALNAME": {
+     "prefix": "USERPRINCIPALNAME",
+     "body": [
+        "USERPRINCIPALNAME"
+     ],
+     "description": "USERPRINCIPALNAME (  )"
+  },
+  "USEROBJECTID": {
+     "prefix": "USEROBJECTID",
+     "body": [
+        "USEROBJECTID"
+     ],
+     "description": "USEROBJECTID (  )"
+  },
+  "USERNAME": {
+     "prefix": "USERNAME",
+     "body": [
+        "USERNAME"
+     ],
+     "description": "USERNAME (  )"
+  },
+  "USERELATIONSHIP": {
+     "prefix": "USERELATIONSHIP",
+     "body": [
+        "USERELATIONSHIP"
+     ],
+     "description": "USERELATIONSHIP ( <ColumnName1>, <ColumnName2> )"
+  },
+  "USERCULTURE": {
+     "prefix": "USERCULTURE",
+     "body": [
+        "USERCULTURE"
+     ],
+     "description": "USERCULTURE ( )"
+  },
+  "UPPER": {
+     "prefix": "UPPER",
+     "body": [
+        "UPPER"
+     ],
+     "description": "UPPER ( <Text> )"
+  },
+  "UNION": {
+     "prefix": "UNION",
+     "body": [
+        "UNION"
+     ],
+     "description": "UNION ( <Table>, <Table> [, <Table> [, … ] ] )"
+  },
+  "UNICODE": {
+     "prefix": "UNICODE",
+     "body": [
+        "UNICODE"
+     ],
+     "description": "UNICODE ( <Text> )"
+  },
+  "UNICHAR": {
+     "prefix": "UNICHAR",
+     "body": [
+        "UNICHAR"
+     ],
+     "description": "UNICHAR ( <Number> )"
+  },
+  "TRUNC": {
+     "prefix": "TRUNC",
+     "body": [
+        "TRUNC"
+     ],
+     "description": "TRUNC ( <Number> [, <NumberOfDigits>] )"
+  },
+  "TRUE": {
+     "prefix": "TRUE",
+     "body": [
+        "TRUE"
+     ],
+     "description": "TRUE (  )"
+  },
+  "TRIM": {
+     "prefix": "TRIM",
+     "body": [
+        "TRIM"
+     ],
+     "description": "TRIM ( <Text> )"
+  },
+  "TREATAS": {
+     "prefix": "TREATAS",
+     "body": [
+        "TREATAS"
+     ],
+     "description": "TREATAS ( <Expression>, <ColumnName> [, <ColumnName> [, … ] ] )"
+  },
+  "TOTALYTD": {
+     "prefix": "TOTALYTD",
+     "body": [
+        "TOTALYTD"
+     ],
+     "description": "TOTALYTD ( <Expression>, <Dates> [, <Filter>] [, <YearEndDate>] )"
+  },
+  "TOTALQTD": {
+     "prefix": "TOTALQTD",
+     "body": [
+        "TOTALQTD"
+     ],
+     "description": "TOTALQTD ( <Expression>, <Dates> [, <Filter>] )"
+  },
+  "TOTALMTD": {
+     "prefix": "TOTALMTD",
+     "body": [
+        "TOTALMTD"
+     ],
+     "description": "TOTALMTD ( <Expression>, <Dates> [, <Filter>] )"
+  },
+  "TOPNSKIP": {
+     "prefix": "TOPNSKIP",
+     "body": [
+        "TOPNSKIP"
+     ],
+     "description": "TOPNSKIP ( <Rows>, <Skip>, <Table> [, <OrderBy_Expression> [, [<Order>] [, <OrderBy_Expression> [, [<Order>] [, … ] ] ] ] ] )"
+  },
+  "TOPNPERLEVEL": {
+     "prefix": "TOPNPERLEVEL",
+     "body": [
+        "TOPNPERLEVEL"
+     ],
+     "description": "TOPNPERLEVEL ( <Rows>, <Table>, <LevelsDefinition>, <NodesExpanded>, <LevelsBoundaries>, <RestartIndicatorColumnName> )"
+  },
+  "TOPN": {
+     "prefix": "TOPN",
+     "body": [
+        "TOPN"
+     ],
+     "description": "TOPN ( <N_Value>, <Table> [, <OrderBy_Expression> [, [<Order>] [, <OrderBy_Expression> [, [<Order>] [, … ] ] ] ] ] )"
+  },
+  "TODAY": {
+     "prefix": "TODAY",
+     "body": [
+        "TODAY"
+     ],
+     "description": "TODAY (  )"
+  },
+  "TIMEVALUE": {
+     "prefix": "TIMEVALUE",
+     "body": [
+        "TIMEVALUE"
+     ],
+     "description": "TIMEVALUE ( <TimeText> )"
+  },
+  "TIME": {
+     "prefix": "TIME",
+     "body": [
+        "TIME"
+     ],
+     "description": "TIME ( <Hour>, <Minute>, <Second> )"
+  },
+  "TBILLYIELD": {
+     "prefix": "TBILLYIELD",
+     "body": [
+        "TBILLYIELD"
+     ],
+     "description": "TBILLYIELD ( <Settlement>, <Maturity>, <Pr> )"
+  },
+  "TBILLPRICE": {
+     "prefix": "TBILLPRICE",
+     "body": [
+        "TBILLPRICE"
+     ],
+     "description": "TBILLPRICE ( <Settlement>, <Maturity>, <Discount> )"
+  },
+  "TBILLEQ": {
+     "prefix": "TBILLEQ",
+     "body": [
+        "TBILLEQ"
+     ],
+     "description": "TBILLEQ ( <Settlement>, <Maturity>, <Discount> )"
+  },
+  "TANH": {
+     "prefix": "TANH",
+     "body": [
+        "TANH"
+     ],
+     "description": "TANH ( <Number> )"
+  },
+  "TAN": {
+     "prefix": "TAN",
+     "body": [
+        "TAN"
+     ],
+     "description": "TAN ( <Number> )"
+  },
+  "T.INV.2T": {
+     "prefix": "T.INV.2T",
+     "body": [
+        "T.INV.2T"
+     ],
+     "description": "T.INV.2T ( <Probability>, <Deg_freedom> )"
+  },
+  "T.INV": {
+     "prefix": "T.INV",
+     "body": [
+        "T.INV"
+     ],
+     "description": "T.INV ( <Probability>, <Deg_freedom> )"
+  },
+  "T.DIST.RT": {
+     "prefix": "T.DIST.RT",
+     "body": [
+        "T.DIST.RT"
+     ],
+     "description": "T.DIST.RT ( <X>, <Deg_freedom> )"
+  },
+  "T.DIST.2T": {
+     "prefix": "T.DIST.2T",
+     "body": [
+        "T.DIST.2T"
+     ],
+     "description": "T.DIST.2T ( <X>, <Deg_freedom> )"
+  },
+  "T.DIST": {
+     "prefix": "T.DIST",
+     "body": [
+        "T.DIST"
+     ],
+     "description": "T.DIST ( <X>, <Deg_freedom>, <Cumulative> )"
+  },
+  "SYD": {
+     "prefix": "SYD",
+     "body": [
+        "SYD"
+     ],
+     "description": "SYD ( <Cost>, <Salvage>, <Life>, <Per> )"
+  },
+  "SWITCH": {
+     "prefix": "SWITCH",
+     "body": [
+        "SWITCH"
+     ],
+     "description": "SWITCH ( <Expression>, <Value>, <Result> [, <Value>, <Result> [, … ] ] [, <Else>] )"
+  },
+  "SUMX": {
+     "prefix": "SUMX",
+     "body": [
+        "SUMX"
+     ],
+     "description": "SUMX ( <Table>, <Expression> )"
+  },
+  "SUMMARIZECOLUMNS": {
+     "prefix": "SUMMARIZECOLUMNS",
+     "body": [
+        "SUMMARIZECOLUMNS"
+     ],
+     "description": "SUMMARIZECOLUMNS (  [<GroupBy_ColumnName> [, [<FilterTable>] [, [<Name>] [, [<Expression>] [, <GroupBy_ColumnName> [, [<FilterTable>] [, [<Name>] [, [<Expression>] [, … ] ] ] ] ] ] ] ] ] )"
+  },
+  "SUMMARIZE": {
+     "prefix": "SUMMARIZE",
+     "body": [
+        "SUMMARIZE"
+     ],
+     "description": "SUMMARIZE ( <Table> [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, … ] ] ] ] ] ] ] )"
+  },
+  "SUM": {
+     "prefix": "SUM",
+     "body": [
+        "SUM"
+     ],
+     "description": "SUM ( <ColumnName> )"
+  },
+  "SUBSTITUTEWITHINDEX": {
+     "prefix": "SUBSTITUTEWITHINDEX",
+     "body": [
+        "SUBSTITUTEWITHINDEX"
+     ],
+     "description": "SUBSTITUTEWITHINDEX ( <Table>, <Name>, <SemiJoinIndexTable>, <Expression> [, [<Order>] [, <Expression> [, [<Order>] [, … ] ] ] ] )"
+  },
+  "SUBSTITUTE": {
+     "prefix": "SUBSTITUTE",
+     "body": [
+        "SUBSTITUTE"
+     ],
+     "description": "SUBSTITUTE ( <Text>, <OldText>, <NewText> [, <InstanceNumber>] )"
+  },
+  "STDEVX.S": {
+     "prefix": "STDEVX.S",
+     "body": [
+        "STDEVX.S"
+     ],
+     "description": "STDEVX.S ( <Table>, <Expression> )"
+  },
+  "STDEVX.P": {
+     "prefix": "STDEVX.P",
+     "body": [
+        "STDEVX.P"
+     ],
+     "description": "STDEVX.P ( <Table>, <Expression> )"
+  },
+  "STDEV.S": {
+     "prefix": "STDEV.S",
+     "body": [
+        "STDEV.S"
+     ],
+     "description": "STDEV.S ( <ColumnName> )"
+  },
+  "STDEV.P": {
+     "prefix": "STDEV.P",
+     "body": [
+        "STDEV.P"
+     ],
+     "description": "STDEV.P ( <ColumnName> )"
+  },
+  "STARTOFYEAR": {
+     "prefix": "STARTOFYEAR",
+     "body": [
+        "STARTOFYEAR"
+     ],
+     "description": "STARTOFYEAR ( <Dates> [, <YearEndDate>] )"
+  },
+  "STARTOFQUARTER": {
+     "prefix": "STARTOFQUARTER",
+     "body": [
+        "STARTOFQUARTER"
+     ],
+     "description": "STARTOFQUARTER ( <Dates> )"
+  },
+  "STARTOFMONTH": {
+     "prefix": "STARTOFMONTH",
+     "body": [
+        "STARTOFMONTH"
+     ],
+     "description": "STARTOFMONTH ( <Dates> )"
+  },
+  "SQRTPI": {
+     "prefix": "SQRTPI",
+     "body": [
+        "SQRTPI"
+     ],
+     "description": "SQRTPI ( <Number> )"
+  },
+  "SQRT": {
+     "prefix": "SQRT",
+     "body": [
+        "SQRT"
+     ],
+     "description": "SQRT ( <Number> )"
+  },
+  "SLN": {
+     "prefix": "SLN",
+     "body": [
+        "SLN"
+     ],
+     "description": "SLN ( <Cost>, <Salvage>, <Life> )"
+  },
+  "SINH": {
+     "prefix": "SINH",
+     "body": [
+        "SINH"
+     ],
+     "description": "SINH ( <Number> )"
+  },
+  "SIN": {
+     "prefix": "SIN",
+     "body": [
+        "SIN"
+     ],
+     "description": "SIN ( <Number> )"
+  },
+  "SIGN": {
+     "prefix": "SIGN",
+     "body": [
+        "SIGN"
+     ],
+     "description": "SIGN ( <Number> )"
+  },
+  "SELECTEDVALUE": {
+     "prefix": "SELECTEDVALUE",
+     "body": [
+        "SELECTEDVALUE"
+     ],
+     "description": "SELECTEDVALUE ( <ColumnName> [, <AlternateResult>] )"
+  },
+  "SELECTEDMEASURENAME": {
+     "prefix": "SELECTEDMEASURENAME",
+     "body": [
+        "SELECTEDMEASURENAME"
+     ],
+     "description": "SELECTEDMEASURENAME (  )"
+  },
+  "SELECTEDMEASUREFORMATSTRING": {
+     "prefix": "SELECTEDMEASUREFORMATSTRING",
+     "body": [
+        "SELECTEDMEASUREFORMATSTRING"
+     ],
+     "description": "SELECTEDMEASUREFORMATSTRING (  )"
+  },
+  "SELECTEDMEASURE": {
+     "prefix": "SELECTEDMEASURE",
+     "body": [
+        "SELECTEDMEASURE"
+     ],
+     "description": "SELECTEDMEASURE (  )"
+  },
+  "SELECTCOLUMNS": {
+     "prefix": "SELECTCOLUMNS",
+     "body": [
+        "SELECTCOLUMNS"
+     ],
+     "description": "SELECTCOLUMNS ( <Table>, <Name>, <Expression> [, <Name>, <Expression> [, … ] ] )"
+  },
+  "SECOND": {
+     "prefix": "SECOND",
+     "body": [
+        "SECOND"
+     ],
+     "description": "SECOND ( <Datetime> )"
+  },
+  "SEARCH": {
+     "prefix": "SEARCH",
+     "body": [
+        "SEARCH"
+     ],
+     "description": "SEARCH ( <FindText>, <WithinText> [, <StartPosition>] [, <NotFoundValue>] )"
+  },
+  "SAMPLE": {
+     "prefix": "SAMPLE",
+     "body": [
+        "SAMPLE"
+     ],
+     "description": "SAMPLE ( <Size>, <Table>, <OrderBy> [, [<Order>] [, <OrderBy> [, [<Order>] [, … ] ] ] ] )"
+  },
+  "SAMEPERIODLASTYEAR": {
+     "prefix": "SAMEPERIODLASTYEAR",
+     "body": [
+        "SAMEPERIODLASTYEAR"
+     ],
+     "description": "SAMEPERIODLASTYEAR ( <Dates> )"
+  },
+  "RRI": {
+     "prefix": "RRI",
+     "body": [
+        "RRI"
+     ],
+     "description": "RRI ( <Nper>, <Pv>, <Fv> )"
+  },
+  "ROW": {
+     "prefix": "ROW",
+     "body": [
+        "ROW"
+     ],
+     "description": "ROW ( <Name>, <Expression> [, <Name>, <Expression> [, … ] ] )"
+  },
+  "ROUNDUP": {
+     "prefix": "ROUNDUP",
+     "body": [
+        "ROUNDUP"
+     ],
+     "description": "ROUNDUP ( <Number>, <NumberOfDigits> )"
+  },
+  "ROUNDDOWN": {
+     "prefix": "ROUNDDOWN",
+     "body": [
+        "ROUNDDOWN"
+     ],
+     "description": "ROUNDDOWN ( <Number>, <NumberOfDigits> )"
+  },
+  "ROUND": {
+     "prefix": "ROUND",
+     "body": [
+        "ROUND"
+     ],
+     "description": "ROUND ( <Number>, <NumberOfDigits> )"
+  },
+  "ROLLUPISSUBTOTAL": {
+     "prefix": "ROLLUPISSUBTOTAL",
+     "body": [
+        "ROLLUPISSUBTOTAL"
+     ],
+     "description": "ROLLUPISSUBTOTAL (  [<GrandtotalFilter>], <GroupBy_ColumnName>, <IsSubtotal_ColumnName> [, [<GroupLevelFilter>] [, <GroupBy_ColumnName>, <IsSubtotal_ColumnName> [, [<GroupLevelFilter>] [, … ] ] ] ] )"
+  },
+  "ROLLUPGROUP": {
+     "prefix": "ROLLUPGROUP",
+     "body": [
+        "ROLLUPGROUP"
+     ],
+     "description": "ROLLUPGROUP ( <GroupBy_ColumnName> [, <GroupBy_ColumnName> [, … ] ] )"
+  },
+  "ROLLUPADDISSUBTOTAL": {
+     "prefix": "ROLLUPADDISSUBTOTAL",
+     "body": [
+        "ROLLUPADDISSUBTOTAL"
+     ],
+     "description": "ROLLUPADDISSUBTOTAL (  [<GrandtotalFilter>], <GroupBy_ColumnName>, <Name> [, [<GroupLevelFilter>] [, <GroupBy_ColumnName>, <Name> [, [<GroupLevelFilter>] [, … ] ] ] ] )"
+  },
+  "ROLLUP": {
+     "prefix": "ROLLUP",
+     "body": [
+        "ROLLUP"
+     ],
+     "description": "ROLLUP ( <GroupBy_ColumnName> [, <GroupBy_ColumnName> [, … ] ] )"
+  },
+  "RIGHT": {
+     "prefix": "RIGHT",
+     "body": [
+        "RIGHT"
+     ],
+     "description": "RIGHT ( <Text> [, <NumberOfCharacters>] )"
+  },
+  "REPT": {
+     "prefix": "REPT",
+     "body": [
+        "REPT"
+     ],
+     "description": "REPT ( <Text>, <NumberOfTimes> )"
+  },
+  "REPLACE": {
+     "prefix": "REPLACE",
+     "body": [
+        "REPLACE"
+     ],
+     "description": "REPLACE ( <OldText>, <StartPosition>, <NumberOfCharacters>, <NewText> )"
+  },
+  "REMOVEFILTERS": {
+     "prefix": "REMOVEFILTERS",
+     "body": [
+        "REMOVEFILTERS"
+     ],
+     "description": "REMOVEFILTERS (  [<TableNameOrColumnName>] [, <ColumnName> [, <ColumnName> [, … ] ] ] )"
+  },
+  "RELATEDTABLE": {
+     "prefix": "RELATEDTABLE",
+     "body": [
+        "RELATEDTABLE"
+     ],
+     "description": "RELATEDTABLE ( <Table> )"
+  },
+  "RELATED": {
+     "prefix": "RELATED",
+     "body": [
+        "RELATED"
+     ],
+     "description": "RELATED ( <ColumnName> )"
+  },
+  "RECEIVED": {
+     "prefix": "RECEIVED",
+     "body": [
+        "RECEIVED"
+     ],
+     "description": "RECEIVED ( <Settlement>, <Maturity>, <Investment>, <Discount> [, <Basis>] )"
+  },
+  "RATE": {
+     "prefix": "RATE",
+     "body": [
+        "RATE"
+     ],
+     "description": "RATE ( <Nper>, <Pmt>, <Pv> [, <Fv>] [, <Type>] [, <Guess>] )"
+  },
+  "RANKX": {
+     "prefix": "RANKX",
+     "body": [
+        "RANKX"
+     ],
+     "description": "RANKX ( <Table>, <Expression> [, <Value>] [, <Order>] [, <Ties>] )"
+  },
+  "RANK.EQ": {
+     "prefix": "RANK.EQ",
+     "body": [
+        "RANK.EQ"
+     ],
+     "description": "RANK.EQ ( <Value>, <ColumnName> [, <Order>] )"
+  },
+  "RANDBETWEEN": {
+     "prefix": "RANDBETWEEN",
+     "body": [
+        "RANDBETWEEN"
+     ],
+     "description": "RANDBETWEEN ( <Bottom>, <Top> )"
+  },
+  "RAND": {
+     "prefix": "RAND",
+     "body": [
+        "RAND"
+     ],
+     "description": "RAND (  )"
+  },
+  "RADIANS": {
+     "prefix": "RADIANS",
+     "body": [
+        "RADIANS"
+     ],
+     "description": "RADIANS ( <Number> )"
+  },
+  "QUOTIENT": {
+     "prefix": "QUOTIENT",
+     "body": [
+        "QUOTIENT"
+     ],
+     "description": "QUOTIENT ( <Numerator>, <Denominator> )"
+  },
+  "QUARTER": {
+     "prefix": "QUARTER",
+     "body": [
+        "QUARTER"
+     ],
+     "description": "QUARTER ( <Date> )"
+  },
+  "PV": {
+     "prefix": "PV",
+     "body": [
+        "PV"
+     ],
+     "description": "PV ( <Rate>, <Nper>, <Pmt> [, <Fv>] [, <Type>] )"
+  },
+  "PRODUCTX": {
+     "prefix": "PRODUCTX",
+     "body": [
+        "PRODUCTX"
+     ],
+     "description": "PRODUCTX ( <Table>, <Expression> )"
+  },
+  "PRODUCT": {
+     "prefix": "PRODUCT",
+     "body": [
+        "PRODUCT"
+     ],
+     "description": "PRODUCT ( <ColumnName> )"
+  },
+  "PRICEMAT": {
+     "prefix": "PRICEMAT",
+     "body": [
+        "PRICEMAT"
+     ],
+     "description": "PRICEMAT ( <Settlement>, <Maturity>, <Issue>, <Rate>, <Yld> [, <Basis>] )"
+  },
+  "PRICEDISC": {
+     "prefix": "PRICEDISC",
+     "body": [
+        "PRICEDISC"
+     ],
+     "description": "PRICEDISC ( <Settlement>, <Maturity>, <Discount>, <Redemption> [, <Basis>] )"
+  },
+  "PRICE": {
+     "prefix": "PRICE",
+     "body": [
+        "PRICE"
+     ],
+     "description": "PRICE ( <Settlement>, <Maturity>, <Rate>, <Yld>, <Redemption>, <Frequency> [, <Basis>] )"
+  },
+  "PREVIOUSYEAR": {
+     "prefix": "PREVIOUSYEAR",
+     "body": [
+        "PREVIOUSYEAR"
+     ],
+     "description": "PREVIOUSYEAR ( <Dates> [, <YearEndDate>] )"
+  },
+  "PREVIOUSQUARTER": {
+     "prefix": "PREVIOUSQUARTER",
+     "body": [
+        "PREVIOUSQUARTER"
+     ],
+     "description": "PREVIOUSQUARTER ( <Dates> )"
+  },
+  "PREVIOUSMONTH": {
+     "prefix": "PREVIOUSMONTH",
+     "body": [
+        "PREVIOUSMONTH"
+     ],
+     "description": "PREVIOUSMONTH ( <Dates> )"
+  },
+  "PREVIOUSDAY": {
+     "prefix": "PREVIOUSDAY",
+     "body": [
+        "PREVIOUSDAY"
+     ],
+     "description": "PREVIOUSDAY ( <Dates> )"
+  },
+  "PPMT": {
+     "prefix": "PPMT",
+     "body": [
+        "PPMT"
+     ],
+     "description": "PPMT ( <Rate>, <Per>, <Nper>, <Pv> [, <Fv>] [, <Type>] )"
+  },
+  "POWER": {
+     "prefix": "POWER",
+     "body": [
+        "POWER"
+     ],
+     "description": "POWER ( <Number>, <Power> )"
+  },
+  "POISSON.DIST": {
+     "prefix": "POISSON.DIST",
+     "body": [
+        "POISSON.DIST"
+     ],
+     "description": "POISSON.DIST ( <X>, <Mean>, <Cumulative> )"
+  },
+  "PMT": {
+     "prefix": "PMT",
+     "body": [
+        "PMT"
+     ],
+     "description": "PMT ( <Rate>, <Nper>, <Pv> [, <Fv>] [, <Type>] )"
+  },
+  "PI": {
+     "prefix": "PI",
+     "body": [
+        "PI"
+     ],
+     "description": "PI (  )"
+  },
+  "PERMUT": {
+     "prefix": "PERMUT",
+     "body": [
+        "PERMUT"
+     ],
+     "description": "PERMUT ( <Number>, <Number_chosen> )"
+  },
+  "PERCENTILEX.INC": {
+     "prefix": "PERCENTILEX.INC",
+     "body": [
+        "PERCENTILEX.INC"
+     ],
+     "description": "PERCENTILEX.INC ( <Table>, <Expression>, <K> )"
+  },
+  "PERCENTILEX.EXC": {
+     "prefix": "PERCENTILEX.EXC",
+     "body": [
+        "PERCENTILEX.EXC"
+     ],
+     "description": "PERCENTILEX.EXC ( <Table>, <Expression>, <K> )"
+  },
+  "PERCENTILE.INC": {
+     "prefix": "PERCENTILE.INC",
+     "body": [
+        "PERCENTILE.INC"
+     ],
+     "description": "PERCENTILE.INC ( <Column>, <K> )"
+  },
+  "PERCENTILE.EXC": {
+     "prefix": "PERCENTILE.EXC",
+     "body": [
+        "PERCENTILE.EXC"
+     ],
+     "description": "PERCENTILE.EXC ( <Column>, <K> )"
+  },
+  "PDURATION": {
+     "prefix": "PDURATION",
+     "body": [
+        "PDURATION"
+     ],
+     "description": "PDURATION ( <Rate>, <Pv>, <Fv> )"
+  },
+  "PATHLENGTH": {
+     "prefix": "PATHLENGTH",
+     "body": [
+        "PATHLENGTH"
+     ],
+     "description": "PATHLENGTH ( <Path> )"
+  },
+  "PATHITEMREVERSE": {
+     "prefix": "PATHITEMREVERSE",
+     "body": [
+        "PATHITEMREVERSE"
+     ],
+     "description": "PATHITEMREVERSE ( <Path>, <Position> [, <Type>] )"
+  },
+  "PATHITEM": {
+     "prefix": "PATHITEM",
+     "body": [
+        "PATHITEM"
+     ],
+     "description": "PATHITEM ( <Path>, <Position> [, <Type>] )"
+  },
+  "PATHCONTAINS": {
+     "prefix": "PATHCONTAINS",
+     "body": [
+        "PATHCONTAINS"
+     ],
+     "description": "PATHCONTAINS ( <Path>, <Item> )"
+  },
+  "PATH": {
+     "prefix": "PATH",
+     "body": [
+        "PATH"
+     ],
+     "description": "PATH ( <ID_ColumnName>, <Parent_ColumnName> )"
+  },
+  "PARALLELPERIOD": {
+     "prefix": "PARALLELPERIOD",
+     "body": [
+        "PARALLELPERIOD"
+     ],
+     "description": "PARALLELPERIOD ( <Dates>, <NumberOfIntervals>, <Interval> )"
+  },
+  "OR": {
+     "prefix": "OR",
+     "body": [
+        "OR"
+     ],
+     "description": "OR ( <Logical1>, <Logical2> )"
+  },
+  "OPENINGBALANCEYEAR": {
+     "prefix": "OPENINGBALANCEYEAR",
+     "body": [
+        "OPENINGBALANCEYEAR"
+     ],
+     "description": "OPENINGBALANCEYEAR ( <Expression>, <Dates> [, <Filter>] [, <YearEndDate>] )"
+  },
+  "OPENINGBALANCEQUARTER": {
+     "prefix": "OPENINGBALANCEQUARTER",
+     "body": [
+        "OPENINGBALANCEQUARTER"
+     ],
+     "description": "OPENINGBALANCEQUARTER ( <Expression>, <Dates> [, <Filter>] )"
+  },
+  "OPENINGBALANCEMONTH": {
+     "prefix": "OPENINGBALANCEMONTH",
+     "body": [
+        "OPENINGBALANCEMONTH"
+     ],
+     "description": "OPENINGBALANCEMONTH ( <Expression>, <Dates> [, <Filter>] )"
+  },
+  "ODDLYIELD": {
+     "prefix": "ODDLYIELD",
+     "body": [
+        "ODDLYIELD"
+     ],
+     "description": "ODDLYIELD ( <Settlement>, <Maturity>, <Last_interest>, <Rate>, <Pr>, <Redemption>, <Frequency> [, <Basis>] )"
+  },
+  "ODDLPRICE": {
+     "prefix": "ODDLPRICE",
+     "body": [
+        "ODDLPRICE"
+     ],
+     "description": "ODDLPRICE ( <Settlement>, <Maturity>, <Last_interest>, <Rate>, <Yld>, <Redemption>, <Frequency> [, <Basis>] )"
+  },
+  "ODDFYIELD": {
+     "prefix": "ODDFYIELD",
+     "body": [
+        "ODDFYIELD"
+     ],
+     "description": "ODDFYIELD ( <Settlement>, <Maturity>, <Issue>, <First_coupon>, <Rate>, <Pr>, <Redemption>, <Frequency> [, <Basis>] )"
+  },
+  "ODDFPRICE": {
+     "prefix": "ODDFPRICE",
+     "body": [
+        "ODDFPRICE"
+     ],
+     "description": "ODDFPRICE ( <Settlement>, <Maturity>, <Issue>, <First_coupon>, <Rate>, <Yld>, <Redemption>, <Frequency> [, <Basis>] )"
+  },
+  "ODD": {
+     "prefix": "ODD",
+     "body": [
+        "ODD"
+     ],
+     "description": "ODD ( <Number> )"
+  },
+  "NPER": {
+     "prefix": "NPER",
+     "body": [
+        "NPER"
+     ],
+     "description": "NPER ( <Rate>, <Pmt>, <Pv> [, <Fv>] [, <Type>] )"
+  },
+  "NOW": {
+     "prefix": "NOW",
+     "body": [
+        "NOW"
+     ],
+     "description": "NOW (  )"
+  },
+  "NOT": {
+     "prefix": "NOT",
+     "body": [
+        "NOT"
+     ],
+     "description": "NOT ( <Logical> )"
+  },
+  "NORM.S.INV": {
+     "prefix": "NORM.S.INV",
+     "body": [
+        "NORM.S.INV"
+     ],
+     "description": "NORM.S.INV ( <Probability> )"
+  },
+  "NORM.S.DIST": {
+     "prefix": "NORM.S.DIST",
+     "body": [
+        "NORM.S.DIST"
+     ],
+     "description": "NORM.S.DIST ( <Z>, <Cumulative> )"
+  },
+  "NORM.INV": {
+     "prefix": "NORM.INV",
+     "body": [
+        "NORM.INV"
+     ],
+     "description": "NORM.INV ( <Probability>, <Mean>, <Standard_dev> )"
+  },
+  "NORM.DIST": {
+     "prefix": "NORM.DIST",
+     "body": [
+        "NORM.DIST"
+     ],
+     "description": "NORM.DIST ( <X>, <Mean>, <Standard_dev>, <Cumulative> )"
+  },
+  "NONVISUAL": {
+     "prefix": "NONVISUAL",
+     "body": [
+        "NONVISUAL"
+     ],
+     "description": "NONVISUAL ( <Expression> )"
+  },
+  "NOMINAL": {
+     "prefix": "NOMINAL",
+     "body": [
+        "NOMINAL"
+     ],
+     "description": "NOMINAL ( <Effect_rate>, <Npery> )"
+  },
+  "NEXTYEAR": {
+     "prefix": "NEXTYEAR",
+     "body": [
+        "NEXTYEAR"
+     ],
+     "description": "NEXTYEAR ( <Dates> [, <YearEndDate>] )"
+  },
+  "NEXTQUARTER": {
+     "prefix": "NEXTQUARTER",
+     "body": [
+        "NEXTQUARTER"
+     ],
+     "description": "NEXTQUARTER ( <Dates> )"
+  },
+  "NEXTMONTH": {
+     "prefix": "NEXTMONTH",
+     "body": [
+        "NEXTMONTH"
+     ],
+     "description": "NEXTMONTH ( <Dates> )"
+  },
+  "NEXTDAY": {
+     "prefix": "NEXTDAY",
+     "body": [
+        "NEXTDAY"
+     ],
+     "description": "NEXTDAY ( <Dates> )"
+  },
+  "NATURALLEFTOUTERJOIN": {
+     "prefix": "NATURALLEFTOUTERJOIN",
+     "body": [
+        "NATURALLEFTOUTERJOIN"
+     ],
+     "description": "NATURALLEFTOUTERJOIN ( <LeftTable>, <RightTable> )"
+  },
+  "NATURALINNERJOIN": {
+     "prefix": "NATURALINNERJOIN",
+     "body": [
+        "NATURALINNERJOIN"
+     ],
+     "description": "NATURALINNERJOIN ( <LeftTable>, <RightTable> )"
+  },
+  "MROUND": {
+     "prefix": "MROUND",
+     "body": [
+        "MROUND"
+     ],
+     "description": "MROUND ( <Number>, <Multiple> )"
+  },
+  "MONTH": {
+     "prefix": "MONTH",
+     "body": [
+        "MONTH"
+     ],
+     "description": "MONTH ( <Date> )"
+  },
+  "MOD": {
+     "prefix": "MOD",
+     "body": [
+        "MOD"
+     ],
+     "description": "MOD ( <Number>, <Divisor> )"
+  },
+  "MINX": {
+     "prefix": "MINX",
+     "body": [
+        "MINX"
+     ],
+     "description": "MINX ( <Table>, <Expression> )"
+  },
+  "MINUTE": {
+     "prefix": "MINUTE",
+     "body": [
+        "MINUTE"
+     ],
+     "description": "MINUTE ( <Datetime> )"
+  },
+  "MINA": {
+     "prefix": "MINA",
+     "body": [
+        "MINA"
+     ],
+     "description": "MINA ( <ColumnName> )"
+  },
+  "MIN": {
+     "prefix": "MIN",
+     "body": [
+        "MIN"
+     ],
+     "description": "MIN ( <ColumnNameOrScalar1> [, <Scalar2>] )"
+  },
+  "MID": {
+     "prefix": "MID",
+     "body": [
+        "MID"
+     ],
+     "description": "MID ( <Text>, <StartPosition>, <NumberOfCharacters> )"
+  },
+  "MEDIANX": {
+     "prefix": "MEDIANX",
+     "body": [
+        "MEDIANX"
+     ],
+     "description": "MEDIANX ( <Table>, <Expression> )"
+  },
+  "MEDIAN": {
+     "prefix": "MEDIAN",
+     "body": [
+        "MEDIAN"
+     ],
+     "description": "MEDIAN ( <Column> )"
+  },
+  "MDURATION": {
+     "prefix": "MDURATION",
+     "body": [
+        "MDURATION"
+     ],
+     "description": "MDURATION ( <Settlement>, <Maturity>, <Coupon>, <Yld>, <Frequency> [, <Basis>] )"
+  },
+  "MAXX": {
+     "prefix": "MAXX",
+     "body": [
+        "MAXX"
+     ],
+     "description": "MAXX ( <Table>, <Expression> )"
+  },
+  "MAXA": {
+     "prefix": "MAXA",
+     "body": [
+        "MAXA"
+     ],
+     "description": "MAXA ( <ColumnName> )"
+  },
+  "MAX": {
+     "prefix": "MAX",
+     "body": [
+        "MAX"
+     ],
+     "description": "MAX ( <ColumnNameOrScalar1> [, <Scalar2>] )"
+  },
+  "LOWER": {
+     "prefix": "LOWER",
+     "body": [
+        "LOWER"
+     ],
+     "description": "LOWER ( <Text> )"
+  },
+  "LOOKUPVALUE": {
+     "prefix": "LOOKUPVALUE",
+     "body": [
+        "LOOKUPVALUE"
+     ],
+     "description": "LOOKUPVALUE ( <Result_ColumnName>, <Search_ColumnName>, <Search_Value> [, <Search_ColumnName>, <Search_Value> [, … ] ] [, <Alternate_Result>] )"
+  },
+  "LOG10": {
+     "prefix": "LOG10",
+     "body": [
+        "LOG10"
+     ],
+     "description": "LOG10 ( <Number> )"
+  },
+  "LOG": {
+     "prefix": "LOG",
+     "body": [
+        "LOG"
+     ],
+     "description": "LOG ( <Number> [, <Base>] )"
+  },
+  "LN": {
+     "prefix": "LN",
+     "body": [
+        "LN"
+     ],
+     "description": "LN ( <Number> )"
+  },
+  "LEN": {
+     "prefix": "LEN",
+     "body": [
+        "LEN"
+     ],
+     "description": "LEN ( <Text> )"
+  },
+  "LEFT": {
+     "prefix": "LEFT",
+     "body": [
+        "LEFT"
+     ],
+     "description": "LEFT ( <Text> [, <NumberOfCharacters>] )"
+  },
+  "LCM": {
+     "prefix": "LCM",
+     "body": [
+        "LCM"
+     ],
+     "description": "LCM ( <Number1>, <Number2> )"
+  },
+  "LASTNONBLANKVALUE": {
+     "prefix": "LASTNONBLANKVALUE",
+     "body": [
+        "LASTNONBLANKVALUE"
+     ],
+     "description": "LASTNONBLANKVALUE ( <ColumnName>, <Expression> )"
+  },
+  "LASTNONBLANK": {
+     "prefix": "LASTNONBLANK",
+     "body": [
+        "LASTNONBLANK"
+     ],
+     "description": "LASTNONBLANK ( <ColumnName>, <Expression> )"
+  },
+  "LASTDATE": {
+     "prefix": "LASTDATE",
+     "body": [
+        "LASTDATE"
+     ],
+     "description": "LASTDATE ( <Dates> )"
+  },
+  "KEYWORDMATCH": {
+     "prefix": "KEYWORDMATCH",
+     "body": [
+        "KEYWORDMATCH"
+     ],
+     "description": "KEYWORDMATCH ( <MatchExpression>, <Text> )"
+  },
+  "KEEPFILTERS": {
+     "prefix": "KEEPFILTERS",
+     "body": [
+        "KEEPFILTERS"
+     ],
+     "description": "KEEPFILTERS ( <Expression> )"
+  },
+  "ISTEXT": {
+     "prefix": "ISTEXT",
+     "body": [
+        "ISTEXT"
+     ],
+     "description": "ISTEXT ( <Value> )"
+  },
+  "ISSUBTOTAL": {
+     "prefix": "ISSUBTOTAL",
+     "body": [
+        "ISSUBTOTAL"
+     ],
+     "description": "ISSUBTOTAL ( <ColumnName> )"
+  },
+  "ISSELECTEDMEASURE": {
+     "prefix": "ISSELECTEDMEASURE",
+     "body": [
+        "ISSELECTEDMEASURE"
+     ],
+     "description": "ISSELECTEDMEASURE ( <Measure> [, <Measure> [, … ] ] )"
+  },
+  "ISPMT": {
+     "prefix": "ISPMT",
+     "body": [
+        "ISPMT"
+     ],
+     "description": "ISPMT ( <Rate>, <Per>, <Nper>, <Pv> )"
+  },
+  "ISONORAFTER": {
+     "prefix": "ISONORAFTER",
+     "body": [
+        "ISONORAFTER"
+     ],
+     "description": "ISONORAFTER ( <Value1>, <Value2> [, [<Order>] [, <Value1>, <Value2> [, [<Order>] [, … ] ] ] ] )"
+  },
+  "ISODD": {
+     "prefix": "ISODD",
+     "body": [
+        "ISODD"
+     ],
+     "description": "ISODD ( <Number> )"
+  },
+  "ISO.CEILING": {
+     "prefix": "ISO.CEILING",
+     "body": [
+        "ISO.CEILING"
+     ],
+     "description": "ISO.CEILING ( <Number> [, <Significance>] )"
+  },
+  "ISNUMBER": {
+     "prefix": "ISNUMBER",
+     "body": [
+        "ISNUMBER"
+     ],
+     "description": "ISNUMBER ( <Value> )"
+  },
+  "ISNONTEXT": {
+     "prefix": "ISNONTEXT",
+     "body": [
+        "ISNONTEXT"
+     ],
+     "description": "ISNONTEXT ( <Value> )"
+  },
+  "ISLOGICAL": {
+     "prefix": "ISLOGICAL",
+     "body": [
+        "ISLOGICAL"
+     ],
+     "description": "ISLOGICAL ( <Value> )"
+  },
+  "ISINSCOPE": {
+     "prefix": "ISINSCOPE",
+     "body": [
+        "ISINSCOPE"
+     ],
+     "description": "ISINSCOPE ( <ColumnName> )"
+  },
+  "ISFILTERED": {
+     "prefix": "ISFILTERED",
+     "body": [
+        "ISFILTERED"
+     ],
+     "description": "ISFILTERED ( <TableNameOrColumnName> )"
+  },
+  "ISEVEN": {
+     "prefix": "ISEVEN",
+     "body": [
+        "ISEVEN"
+     ],
+     "description": "ISEVEN ( <Number> )"
+  },
+  "ISERROR": {
+     "prefix": "ISERROR",
+     "body": [
+        "ISERROR"
+     ],
+     "description": "ISERROR ( <Value> )"
+  },
+  "ISEMPTY": {
+     "prefix": "ISEMPTY",
+     "body": [
+        "ISEMPTY"
+     ],
+     "description": "ISEMPTY ( <Table> )"
+  },
+  "ISCROSSFILTERED": {
+     "prefix": "ISCROSSFILTERED",
+     "body": [
+        "ISCROSSFILTERED"
+     ],
+     "description": "ISCROSSFILTERED ( <TableNameOrColumnName> )"
+  },
+  "ISBLANK": {
+     "prefix": "ISBLANK",
+     "body": [
+        "ISBLANK"
+     ],
+     "description": "ISBLANK ( <Value> )"
+  },
+  "ISAFTER": {
+     "prefix": "ISAFTER",
+     "body": [
+        "ISAFTER"
+     ],
+     "description": "ISAFTER ( <Value1>, <Value2> [, [<Order>] [, <Value1>, <Value2> [, [<Order>] [, … ] ] ] ] )"
+  },
+  "IPMT": {
+     "prefix": "IPMT",
+     "body": [
+        "IPMT"
+     ],
+     "description": "IPMT ( <Rate>, <Per>, <Nper>, <Pv> [, <Fv>] [, <Type>] )"
+  },
+  "INTRATE": {
+     "prefix": "INTRATE",
+     "body": [
+        "INTRATE"
+     ],
+     "description": "INTRATE ( <Settlement>, <Maturity>, <Investment>, <Redemption> [, <Basis>] )"
+  },
+  "INTERSECT": {
+     "prefix": "INTERSECT",
+     "body": [
+        "INTERSECT"
+     ],
+     "description": "INTERSECT ( <LeftTable>, <RightTable> )"
+  },
+  "INT": {
+     "prefix": "INT",
+     "body": [
+        "INT"
+     ],
+     "description": "INT ( <Number> )"
+  },
+  "IGNORE": {
+     "prefix": "IGNORE",
+     "body": [
+        "IGNORE"
+     ],
+     "description": "IGNORE ( <Measure_Expression> )"
+  },
+  "IFERROR": {
+     "prefix": "IFERROR",
+     "body": [
+        "IFERROR"
+     ],
+     "description": "IFERROR ( <Value>, <ValueIfError> )"
+  },
+  "IF.EAGER": {
+     "prefix": "IF.EAGER",
+     "body": [
+        "IF.EAGER"
+     ],
+     "description": "IF.EAGER ( <LogicalTest>, <ResultIfTrue> [, <ResultIfFalse>] )"
+  },
+  "IF": {
+     "prefix": "IF",
+     "body": [
+        "IF"
+     ],
+     "description": "IF ( <LogicalTest>, <ResultIfTrue> [, <ResultIfFalse>] )"
+  },
+  "HOUR": {
+     "prefix": "HOUR",
+     "body": [
+        "HOUR"
+     ],
+     "description": "HOUR ( <Datetime> )"
+  },
+  "HASONEVALUE": {
+     "prefix": "HASONEVALUE",
+     "body": [
+        "HASONEVALUE"
+     ],
+     "description": "HASONEVALUE ( <ColumnName> )"
+  },
+  "HASONEFILTER": {
+     "prefix": "HASONEFILTER",
+     "body": [
+        "HASONEFILTER"
+     ],
+     "description": "HASONEFILTER ( <ColumnName> )"
+  },
+  "HASH": {
+     "prefix": "HASH",
+     "body": [
+        "HASH"
+     ],
+     "description": "HASH ( <Expression> [, <Expression> [, … ] ] )"
+  },
+  "GROUPBY": {
+     "prefix": "GROUPBY",
+     "body": [
+        "GROUPBY"
+     ],
+     "description": "GROUPBY ( <Table> [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, <GroupBy_ColumnName> [, [<Name>] [, [<Expression>] [, … ] ] ] ] ] ] ] )"
+  },
+  "GEOMEANX": {
+     "prefix": "GEOMEANX",
+     "body": [
+        "GEOMEANX"
+     ],
+     "description": "GEOMEANX ( <Table>, <Expression> )"
+  },
+  "GEOMEAN": {
+     "prefix": "GEOMEAN",
+     "body": [
+        "GEOMEAN"
+     ],
+     "description": "GEOMEAN ( <ColumnName> )"
+  },
+  "GENERATESERIES": {
+     "prefix": "GENERATESERIES",
+     "body": [
+        "GENERATESERIES"
+     ],
+     "description": "GENERATESERIES ( <StartValue>, <EndValue> [, <IncrementValue>] )"
+  },
+  "GENERATEALL": {
+     "prefix": "GENERATEALL",
+     "body": [
+        "GENERATEALL"
+     ],
+     "description": "GENERATEALL ( <Table1>, <Table2> )"
+  },
+  "GENERATE": {
+     "prefix": "GENERATE",
+     "body": [
+        "GENERATE"
+     ],
+     "description": "GENERATE ( <Table1>, <Table2> )"
+  },
+  "GCD": {
+     "prefix": "GCD",
+     "body": [
+        "GCD"
+     ],
+     "description": "GCD ( <Number1>, <Number2> )"
+  },
+  "FV": {
+     "prefix": "FV",
+     "body": [
+        "FV"
+     ],
+     "description": "FV ( <Rate>, <Nper>, <Pmt> [, <Pv>] [, <Type>] )"
+  },
+  "FORMAT": {
+     "prefix": "FORMAT",
+     "body": [
+        "FORMAT"
+     ],
+     "description": "FORMAT ( <Value>, <Format> )"
+  },
+  "FLOOR": {
+     "prefix": "FLOOR",
+     "body": [
+        "FLOOR"
+     ],
+     "description": "FLOOR ( <Number>, <Significance> )"
+  },
+  "FIXED": {
+     "prefix": "FIXED",
+     "body": [
+        "FIXED"
+     ],
+     "description": "FIXED ( <Number> [, <Decimals>] [, <NoCommas>] )"
+  },
+  "FIRSTNONBLANKVALUE": {
+     "prefix": "FIRSTNONBLANKVALUE",
+     "body": [
+        "FIRSTNONBLANKVALUE"
+     ],
+     "description": "FIRSTNONBLANKVALUE ( <ColumnName>, <Expression> )"
+  },
+  "FIRSTNONBLANK": {
+     "prefix": "FIRSTNONBLANK",
+     "body": [
+        "FIRSTNONBLANK"
+     ],
+     "description": "FIRSTNONBLANK ( <ColumnName>, <Expression> )"
+  },
+  "FIRSTDATE": {
+     "prefix": "FIRSTDATE",
+     "body": [
+        "FIRSTDATE"
+     ],
+     "description": "FIRSTDATE ( <Dates> )"
+  },
+  "FIND": {
+     "prefix": "FIND",
+     "body": [
+        "FIND"
+     ],
+     "description": "FIND ( <FindText>, <WithinText> [, <StartPosition>] [, <NotFoundValue>] )"
+  },
+  "FILTERS": {
+     "prefix": "FILTERS",
+     "body": [
+        "FILTERS"
+     ],
+     "description": "FILTERS ( <ColumnName> )"
+  },
+  "FILTER": {
+     "prefix": "FILTER",
+     "body": [
+        "FILTER"
+     ],
+     "description": "FILTER ( <Table>, <FilterExpression> )"
+  },
+  "FALSE": {
+     "prefix": "FALSE",
+     "body": [
+        "FALSE"
+     ],
+     "description": "FALSE (  )"
+  },
+  "FACT": {
+     "prefix": "FACT",
+     "body": [
+        "FACT"
+     ],
+     "description": "FACT ( <Number> )"
+  },
+  "EXPON.DIST": {
+     "prefix": "EXPON.DIST",
+     "body": [
+        "EXPON.DIST"
+     ],
+     "description": "EXPON.DIST ( <X>, <Lambda>, <Cumulative> )"
+  },
+  "EXP": {
+     "prefix": "EXP",
+     "body": [
+        "EXP"
+     ],
+     "description": "EXP ( <Number> )"
+  },
+  "EXCEPT": {
+     "prefix": "EXCEPT",
+     "body": [
+        "EXCEPT"
+     ],
+     "description": "EXCEPT ( <LeftTable>, <RightTable> )"
+  },
+  "EXACT": {
+     "prefix": "EXACT",
+     "body": [
+        "EXACT"
+     ],
+     "description": "EXACT ( <Text1>, <Text2> )"
+  },
+  "EVEN": {
+     "prefix": "EVEN",
+     "body": [
+        "EVEN"
+     ],
+     "description": "EVEN ( <Number> )"
+  },
+  "ERROR": {
+     "prefix": "ERROR",
+     "body": [
+        "ERROR"
+     ],
+     "description": "ERROR ( <ErrorText> )"
+  },
+  "EOMONTH": {
+     "prefix": "EOMONTH",
+     "body": [
+        "EOMONTH"
+     ],
+     "description": "EOMONTH ( <StartDate>, <Months> )"
+  },
+  "ENDOFYEAR": {
+     "prefix": "ENDOFYEAR",
+     "body": [
+        "ENDOFYEAR"
+     ],
+     "description": "ENDOFYEAR ( <Dates> [, <YearEndDate>] )"
+  },
+  "ENDOFQUARTER": {
+     "prefix": "ENDOFQUARTER",
+     "body": [
+        "ENDOFQUARTER"
+     ],
+     "description": "ENDOFQUARTER ( <Dates> )"
+  },
+  "ENDOFMONTH": {
+     "prefix": "ENDOFMONTH",
+     "body": [
+        "ENDOFMONTH"
+     ],
+     "description": "ENDOFMONTH ( <Dates> )"
+  },
+  "EFFECT": {
+     "prefix": "EFFECT",
+     "body": [
+        "EFFECT"
+     ],
+     "description": "EFFECT ( <Nominal_rate>, <Npery> )"
+  },
+  "EDATE": {
+     "prefix": "EDATE",
+     "body": [
+        "EDATE"
+     ],
+     "description": "EDATE ( <StartDate>, <Months> )"
+  },
+  "EARLIEST": {
+     "prefix": "EARLIEST",
+     "body": [
+        "EARLIEST"
+     ],
+     "description": "EARLIEST ( <ColumnName> )"
+  },
+  "EARLIER": {
+     "prefix": "EARLIER",
+     "body": [
+        "EARLIER"
+     ],
+     "description": "EARLIER ( <ColumnName> [, <Number>] )"
+  },
+  "DURATION": {
+     "prefix": "DURATION",
+     "body": [
+        "DURATION"
+     ],
+     "description": "DURATION ( <Settlement>, <Maturity>, <Coupon>, <Yld>, <Frequency> [, <Basis>] )"
+  },
+  "DOLLARFR": {
+     "prefix": "DOLLARFR",
+     "body": [
+        "DOLLARFR"
+     ],
+     "description": "DOLLARFR ( <Decimal_dollar>, <Fraction> )"
+  },
+  "DOLLARDE": {
+     "prefix": "DOLLARDE",
+     "body": [
+        "DOLLARDE"
+     ],
+     "description": "DOLLARDE ( <Fractional_dollar>, <Fraction> )"
+  },
+  "DIVIDE": {
+     "prefix": "DIVIDE",
+     "body": [
+        "DIVIDE"
+     ],
+     "description": "DIVIDE ( <Numerator>, <Denominator> [, <AlternateResult>] )"
+  },
+  "DISTINCTCOUNTNOBLANK": {
+     "prefix": "DISTINCTCOUNTNOBLANK",
+     "body": [
+        "DISTINCTCOUNTNOBLANK"
+     ],
+     "description": "DISTINCTCOUNTNOBLANK ( <ColumnName> )"
+  },
+  "DISTINCTCOUNT": {
+     "prefix": "DISTINCTCOUNT",
+     "body": [
+        "DISTINCTCOUNT"
+     ],
+     "description": "DISTINCTCOUNT ( <ColumnName> )"
+  },
+  "DISTINCT": {
+     "prefix": "DISTINCT",
+     "body": [
+        "DISTINCT"
+     ],
+     "description": "DISTINCT ( <ColumnNameOrTableExpr> )"
+  },
+  "DISC": {
+     "prefix": "DISC",
+     "body": [
+        "DISC"
+     ],
+     "description": "DISC ( <Settlement>, <Maturity>, <Pr>, <Redemption> [, <Basis>] )"
+  },
+  "DETAILROWS": {
+     "prefix": "DETAILROWS",
+     "body": [
+        "DETAILROWS"
+     ],
+     "description": "DETAILROWS ( <Measure> )"
+  },
+  "DEGREES": {
+     "prefix": "DEGREES",
+     "body": [
+        "DEGREES"
+     ],
+     "description": "DEGREES ( <Number> )"
+  },
+  "DDB": {
+     "prefix": "DDB",
+     "body": [
+        "DDB"
+     ],
+     "description": "DDB ( <Cost>, <Salvage>, <Life>, <Period> [, <Factor>] )"
+  },
+  "DB": {
+     "prefix": "DB",
+     "body": [
+        "DB"
+     ],
+     "description": "DB ( <Cost>, <Salvage>, <Life>, <Period> [, <Month>] )"
+  },
+  "DAY": {
+     "prefix": "DAY",
+     "body": [
+        "DAY"
+     ],
+     "description": "DAY ( <Date> )"
+  },
+  "DATEVALUE": {
+     "prefix": "DATEVALUE",
+     "body": [
+        "DATEVALUE"
+     ],
+     "description": "DATEVALUE ( <DateText> )"
+  },
+  "DATESYTD": {
+     "prefix": "DATESYTD",
+     "body": [
+        "DATESYTD"
+     ],
+     "description": "DATESYTD ( <Dates> [, <YearEndDate>] )"
+  },
+  "DATESQTD": {
+     "prefix": "DATESQTD",
+     "body": [
+        "DATESQTD"
+     ],
+     "description": "DATESQTD ( <Dates> )"
+  },
+  "DATESMTD": {
+     "prefix": "DATESMTD",
+     "body": [
+        "DATESMTD"
+     ],
+     "description": "DATESMTD ( <Dates> )"
+  },
+  "DATESINPERIOD": {
+     "prefix": "DATESINPERIOD",
+     "body": [
+        "DATESINPERIOD"
+     ],
+     "description": "DATESINPERIOD ( <Dates>, <StartDate>, <NumberOfIntervals>, <Interval> )"
+  },
+  "DATESBETWEEN": {
+     "prefix": "DATESBETWEEN",
+     "body": [
+        "DATESBETWEEN"
+     ],
+     "description": "DATESBETWEEN ( <Dates>, <StartDate>, <EndDate> )"
+  },
+  "DATEDIFF": {
+     "prefix": "DATEDIFF",
+     "body": [
+        "DATEDIFF"
+     ],
+     "description": "DATEDIFF ( <Date1>, <Date2>, <Interval> )"
+  },
+  "DATEADD": {
+     "prefix": "DATEADD",
+     "body": [
+        "DATEADD"
+     ],
+     "description": "DATEADD ( <Dates>, <NumberOfIntervals>, <Interval> )"
+  },
+  "DATE": {
+     "prefix": "DATE",
+     "body": [
+        "DATE"
+     ],
+     "description": "DATE ( <Year>, <Month>, <Day> )"
+  },
+  "DATATABLE": {
+     "prefix": "DATATABLE",
+     "body": [
+        "DATATABLE"
+     ],
+     "description": "DATATABLE ( <name>, <type> [, <name>, <type> [, … ] ], <data> )"
+  },
+  "CUSTOMDATA": {
+     "prefix": "CUSTOMDATA",
+     "body": [
+        "CUSTOMDATA"
+     ],
+     "description": "CUSTOMDATA (  )"
+  },
+  "CURRENTGROUP": {
+     "prefix": "CURRENTGROUP",
+     "body": [
+        "CURRENTGROUP"
+     ],
+     "description": "CURRENTGROUP (  )"
+  },
+  "CURRENCY": {
+     "prefix": "CURRENCY",
+     "body": [
+        "CURRENCY"
+     ],
+     "description": "CURRENCY ( <Value> )"
+  },
+  "CUMPRINC": {
+     "prefix": "CUMPRINC",
+     "body": [
+        "CUMPRINC"
+     ],
+     "description": "CUMPRINC ( <Rate>, <Nper>, <Pv>, <Start_period>, <End_period>, <Type> )"
+  },
+  "CUMIPMT": {
+     "prefix": "CUMIPMT",
+     "body": [
+        "CUMIPMT"
+     ],
+     "description": "CUMIPMT ( <Rate>, <Nper>, <Pv>, <Start_period>, <End_period>, <Type> )"
+  },
+  "CROSSJOIN": {
+     "prefix": "CROSSJOIN",
+     "body": [
+        "CROSSJOIN"
+     ],
+     "description": "CROSSJOIN ( <Table> [, <Table> [, … ] ] )"
+  },
+  "CROSSFILTER": {
+     "prefix": "CROSSFILTER",
+     "body": [
+        "CROSSFILTER"
+     ],
+     "description": "CROSSFILTER ( <LeftColumnName>, <RightColumnName>, <CrossFilterType> )"
+  },
+  "COUPPCD": {
+     "prefix": "COUPPCD",
+     "body": [
+        "COUPPCD"
+     ],
+     "description": "COUPPCD ( <Settlement>, <Maturity>, <Frequency> [, <Basis>] )"
+  },
+  "COUPNUM": {
+     "prefix": "COUPNUM",
+     "body": [
+        "COUPNUM"
+     ],
+     "description": "COUPNUM ( <Settlement>, <Maturity>, <Frequency> [, <Basis>] )"
+  },
+  "COUPNCD": {
+     "prefix": "COUPNCD",
+     "body": [
+        "COUPNCD"
+     ],
+     "description": "COUPNCD ( <Settlement>, <Maturity>, <Frequency> [, <Basis>] )"
+  },
+  "COUPDAYSNC": {
+     "prefix": "COUPDAYSNC",
+     "body": [
+        "COUPDAYSNC"
+     ],
+     "description": "COUPDAYSNC ( <Settlement>, <Maturity>, <Frequency> [, <Basis>] )"
+  },
+  "COUPDAYS": {
+     "prefix": "COUPDAYS",
+     "body": [
+        "COUPDAYS"
+     ],
+     "description": "COUPDAYS ( <Settlement>, <Maturity>, <Frequency> [, <Basis>] )"
+  },
+  "COUPDAYBS": {
+     "prefix": "COUPDAYBS",
+     "body": [
+        "COUPDAYBS"
+     ],
+     "description": "COUPDAYBS ( <Settlement>, <Maturity>, <Frequency> [, <Basis>] )"
+  },
+  "COUNTX": {
+     "prefix": "COUNTX",
+     "body": [
+        "COUNTX"
+     ],
+     "description": "COUNTX ( <Table>, <Expression> )"
+  },
+  "COUNTROWS": {
+     "prefix": "COUNTROWS",
+     "body": [
+        "COUNTROWS"
+     ],
+     "description": "COUNTROWS ( [<Table>] )"
+  },
+  "COUNTBLANK": {
+     "prefix": "COUNTBLANK",
+     "body": [
+        "COUNTBLANK"
+     ],
+     "description": "COUNTBLANK ( <ColumnName> )"
+  },
+  "COUNTAX": {
+     "prefix": "COUNTAX",
+     "body": [
+        "COUNTAX"
+     ],
+     "description": "COUNTAX ( <Table>, <Expression> )"
+  },
+  "COUNTA": {
+     "prefix": "COUNTA",
+     "body": [
+        "COUNTA"
+     ],
+     "description": "COUNTA ( <ColumnName> )"
+  },
+  "COUNT": {
+     "prefix": "COUNT",
+     "body": [
+        "COUNT"
+     ],
+     "description": "COUNT ( <ColumnName> )"
+  },
+  "COTH": {
+     "prefix": "COTH",
+     "body": [
+        "COTH"
+     ],
+     "description": "COTH ( <Number> )"
+  },
+  "COT": {
+     "prefix": "COT",
+     "body": [
+        "COT"
+     ],
+     "description": "COT ( <Number> )"
+  },
+  "COSH": {
+     "prefix": "COSH",
+     "body": [
+        "COSH"
+     ],
+     "description": "COSH ( <Number> )"
+  },
+  "COS": {
+     "prefix": "COS",
+     "body": [
+        "COS"
+     ],
+     "description": "COS ( <Number> )"
+  },
+  "CONVERT": {
+     "prefix": "CONVERT",
+     "body": [
+        "CONVERT"
+     ],
+     "description": "CONVERT ( <Expression>, <DataType> )"
+  },
+  "CONTAINSSTRINGEXACT": {
+     "prefix": "CONTAINSSTRINGEXACT",
+     "body": [
+        "CONTAINSSTRINGEXACT"
+     ],
+     "description": "CONTAINSSTRINGEXACT ( <WithinText>, <FindText> )"
+  },
+  "CONTAINSSTRING": {
+     "prefix": "CONTAINSSTRING",
+     "body": [
+        "CONTAINSSTRING"
+     ],
+     "description": "CONTAINSSTRING ( <WithinText>, <FindText> )"
+  },
+  "CONTAINSROW": {
+     "prefix": "CONTAINSROW",
+     "body": [
+        "CONTAINSROW"
+     ],
+     "description": "CONTAINSROW ( <Table>, <Value> [, <Value> [, … ] ] )"
+  },
+  "CONTAINS": {
+     "prefix": "CONTAINS",
+     "body": [
+        "CONTAINS"
+     ],
+     "description": "CONTAINS ( <Table>, <ColumnName>, <Value> [, <ColumnName>, <Value> [, … ] ] )"
+  },
+  "CONFIDENCE.T": {
+     "prefix": "CONFIDENCE.T",
+     "body": [
+        "CONFIDENCE.T"
+     ],
+     "description": "CONFIDENCE.T ( <Alpha>, <Standard_dev>, <Size> )"
+  },
+  "CONFIDENCE.NORM": {
+     "prefix": "CONFIDENCE.NORM",
+     "body": [
+        "CONFIDENCE.NORM"
+     ],
+     "description": "CONFIDENCE.NORM ( <Alpha>, <Standard_dev>, <Size> )"
+  },
+  "CONCATENATEX": {
+     "prefix": "CONCATENATEX",
+     "body": [
+        "CONCATENATEX"
+     ],
+     "description": "CONCATENATEX ( <Table>, <Expression> [, <Delimiter>] [, <OrderBy_Expression> [, [<Order>] [, <OrderBy_Expression> [, [<Order>] [, … ] ] ] ] ] )"
+  },
+  "CONCATENATE": {
+     "prefix": "CONCATENATE",
+     "body": [
+        "CONCATENATE"
+     ],
+     "description": "CONCATENATE ( <Text1>, <Text2> )"
+  },
+  "COMBINEVALUES": {
+     "prefix": "COMBINEVALUES",
+     "body": [
+        "COMBINEVALUES"
+     ],
+     "description": "COMBINEVALUES ( <Delimiter>, <Expression1>, <Expression2> [, <Expression2> [, … ] ] )"
+  },
+  "COMBINA": {
+     "prefix": "COMBINA",
+     "body": [
+        "COMBINA"
+     ],
+     "description": "COMBINA ( <Number>, <Number_chosen> )"
+  },
+  "COMBIN": {
+     "prefix": "COMBIN",
+     "body": [
+        "COMBIN"
+     ],
+     "description": "COMBIN ( <Number>, <Number_chosen> )"
+  },
+  "COLUMNSTATISTICS": {
+     "prefix": "COLUMNSTATISTICS",
+     "body": [
+        "COLUMNSTATISTICS"
+     ],
+     "description": "COLUMNSTATISTICS ( )"
+  },
+  "COALESCE": {
+     "prefix": "COALESCE",
+     "body": [
+        "COALESCE"
+     ],
+     "description": "COALESCE ( <Value1>, <Value2> [, <Value2> [, … ] ] )"
+  },
+  "CLOSINGBALANCEYEAR": {
+     "prefix": "CLOSINGBALANCEYEAR",
+     "body": [
+        "CLOSINGBALANCEYEAR"
+     ],
+     "description": "CLOSINGBALANCEYEAR ( <Expression>, <Dates> [, <Filter>] [, <YearEndDate>] )"
+  },
+  "CLOSINGBALANCEQUARTER": {
+     "prefix": "CLOSINGBALANCEQUARTER",
+     "body": [
+        "CLOSINGBALANCEQUARTER"
+     ],
+     "description": "CLOSINGBALANCEQUARTER ( <Expression>, <Dates> [, <Filter>] )"
+  },
+  "CLOSINGBALANCEMONTH": {
+     "prefix": "CLOSINGBALANCEMONTH",
+     "body": [
+        "CLOSINGBALANCEMONTH"
+     ],
+     "description": "CLOSINGBALANCEMONTH ( <Expression>, <Dates> [, <Filter>] )"
+  },
+  "CHISQ.INV.RT": {
+     "prefix": "CHISQ.INV.RT",
+     "body": [
+        "CHISQ.INV.RT"
+     ],
+     "description": "CHISQ.INV.RT ( <Probability>, <Deg_freedom> )"
+  },
+  "CHISQ.INV": {
+     "prefix": "CHISQ.INV",
+     "body": [
+        "CHISQ.INV"
+     ],
+     "description": "CHISQ.INV ( <Probability>, <Deg_freedom> )"
+  },
+  "CHISQ.DIST.RT": {
+     "prefix": "CHISQ.DIST.RT",
+     "body": [
+        "CHISQ.DIST.RT"
+     ],
+     "description": "CHISQ.DIST.RT ( <X>, <Deg_freedom> )"
+  },
+  "CHISQ.DIST": {
+     "prefix": "CHISQ.DIST",
+     "body": [
+        "CHISQ.DIST"
+     ],
+     "description": "CHISQ.DIST ( <X>, <Deg_freedom>, <Cumulative> )"
+  },
+  "CEILING": {
+     "prefix": "CEILING",
+     "body": [
+        "CEILING"
+     ],
+     "description": "CEILING ( <Number>, <Significance> )"
+  },
+  "CALENDARAUTO": {
+     "prefix": "CALENDARAUTO",
+     "body": [
+        "CALENDARAUTO"
+     ],
+     "description": "CALENDARAUTO (  [<FiscalYearEndMonth>] )"
+  },
+  "CALENDAR": {
+     "prefix": "CALENDAR",
+     "body": [
+        "CALENDAR"
+     ],
+     "description": "CALENDAR ( <StartDate>, <EndDate> )"
+  },
+  "CALCULATETABLE": {
+     "prefix": "CALCULATETABLE",
+     "body": [
+        "CALCULATETABLE"
+     ],
+     "description": "CALCULATETABLE ( <Table> [, <Filter> [, <Filter> [, … ] ] ] )"
+  },
+  "CALCULATE": {
+     "prefix": "CALCULATE",
+     "body": [
+        "CALCULATE"
+     ],
+     "description": "CALCULATE ( <Expression> [, <Filter> [, <Filter> [, … ] ] ] )"
+  },
+  "BLANK": {
+     "prefix": "BLANK",
+     "body": [
+        "BLANK"
+     ],
+     "description": "BLANK (  )"
+  },
+  "BETA.INV": {
+     "prefix": "BETA.INV",
+     "body": [
+        "BETA.INV"
+     ],
+     "description": "BETA.INV ( <Probability>, <Alpha>, <Beta> [, <A>] [, <B>] )"
+  },
+  "BETA.DIST": {
+     "prefix": "BETA.DIST",
+     "body": [
+        "BETA.DIST"
+     ],
+     "description": "BETA.DIST ( <X>, <Alpha>, <Beta>, <Cumulative> [, <A>] [, <B>] )"
+  },
+  "AVERAGEX": {
+     "prefix": "AVERAGEX",
+     "body": [
+        "AVERAGEX"
+     ],
+     "description": "AVERAGEX ( <Table>, <Expression> )"
+  },
+  "AVERAGEA": {
+     "prefix": "AVERAGEA",
+     "body": [
+        "AVERAGEA"
+     ],
+     "description": "AVERAGEA ( <ColumnName> )"
+  },
+  "AVERAGE": {
+     "prefix": "AVERAGE",
+     "body": [
+        "AVERAGE"
+     ],
+     "description": "AVERAGE ( <ColumnName> )"
+  },
+  "ATANH": {
+     "prefix": "ATANH",
+     "body": [
+        "ATANH"
+     ],
+     "description": "ATANH ( <Number> )"
+  },
+  "ATAN": {
+     "prefix": "ATAN",
+     "body": [
+        "ATAN"
+     ],
+     "description": "ATAN ( <Number> )"
+  },
+  "ASINH": {
+     "prefix": "ASINH",
+     "body": [
+        "ASINH"
+     ],
+     "description": "ASINH ( <Number> )"
+  },
+  "ASIN": {
+     "prefix": "ASIN",
+     "body": [
+        "ASIN"
+     ],
+     "description": "ASIN ( <Number> )"
+  },
+  "APPROXIMATEDISTINCTCOUNT": {
+     "prefix": "APPROXIMATEDISTINCTCOUNT",
+     "body": [
+        "APPROXIMATEDISTINCTCOUNT"
+     ],
+     "description": "APPROXIMATEDISTINCTCOUNT ( <ColumnName> )"
+  },
+  "AND": {
+     "prefix": "AND",
+     "body": [
+        "AND"
+     ],
+     "description": "AND ( <Logical1>, <Logical2> )"
+  },
+  "AMORLINC": {
+     "prefix": "AMORLINC",
+     "body": [
+        "AMORLINC"
+     ],
+     "description": "AMORLINC ( <Cost>, <Date_purchased>, <First_period>, <Salvage>, <Period>, <Rate> [, <Basis>] )"
+  },
+  "AMORDEGRC": {
+     "prefix": "AMORDEGRC",
+     "body": [
+        "AMORDEGRC"
+     ],
+     "description": "AMORDEGRC ( <Cost>, <Date_purchased>, <First_period>, <Salvage>, <Period>, <Rate> [, <Basis>] )"
+  },
+  "ALLSELECTED": {
+     "prefix": "ALLSELECTED",
+     "body": [
+        "ALLSELECTED"
+     ],
+     "description": "ALLSELECTED (  [<TableNameOrColumnName>] [, <ColumnName> [, <ColumnName> [, … ] ] ] )"
+  },
+  "ALLNOBLANKROW": {
+     "prefix": "ALLNOBLANKROW",
+     "body": [
+        "ALLNOBLANKROW"
+     ],
+     "description": "ALLNOBLANKROW ( <TableNameOrColumnName> [, <ColumnName> [, <ColumnName> [, … ] ] ] )"
+  },
+  "ALLEXCEPT": {
+     "prefix": "ALLEXCEPT",
+     "body": [
+        "ALLEXCEPT"
+     ],
+     "description": "ALLEXCEPT ( <TableName>, <ColumnName> [, <ColumnName> [, … ] ] )"
+  },
+  "ALLCROSSFILTERED": {
+     "prefix": "ALLCROSSFILTERED",
+     "body": [
+        "ALLCROSSFILTERED"
+     ],
+     "description": "ALLCROSSFILTERED ( <TableName> )"
+  },
+  "ALL": {
+     "prefix": "ALL",
+     "body": [
+        "ALL"
+     ],
+     "description": "ALL (  [<TableNameOrColumnName>] [, <ColumnName> [, <ColumnName> [, … ] ] ] )"
+  },
+  "ADDMISSINGITEMS": {
+     "prefix": "ADDMISSINGITEMS",
+     "body": [
+        "ADDMISSINGITEMS"
+     ],
+     "description": "ADDMISSINGITEMS (  [<ShowAll_ColumnName> [, <ShowAll_ColumnName> [, … ] ] ], <Table> [, <GroupBy_ColumnName> [, [<FilterTable>] [, <GroupBy_ColumnName> [, [<FilterTable>] [, … ] ] ] ] ] ] )"
+  },
+  "ADDCOLUMNS": {
+     "prefix": "ADDCOLUMNS",
+     "body": [
+        "ADDCOLUMNS"
+     ],
+     "description": "ADDCOLUMNS ( <Table>, <Name>, <Expression> [, <Name>, <Expression> [, … ] ] )"
+  },
+  "ACOTH": {
+     "prefix": "ACOTH",
+     "body": [
+        "ACOTH"
+     ],
+     "description": "ACOTH ( <Number> )"
+  },
+  "ACOT": {
+     "prefix": "ACOT",
+     "body": [
+        "ACOT"
+     ],
+     "description": "ACOT ( <Number> )"
+  },
+  "ACOSH": {
+     "prefix": "ACOSH",
+     "body": [
+        "ACOSH"
+     ],
+     "description": "ACOSH ( <Number> )"
+  },
+  "ACOS": {
+     "prefix": "ACOS",
+     "body": [
+        "ACOS"
+     ],
+     "description": "ACOS ( <Number> )"
+  },
+  "ACCRINTM": {
+     "prefix": "ACCRINTM",
+     "body": [
+        "ACCRINTM"
+     ],
+     "description": "ACCRINTM ( <Issue>, <Maturity>, <Rate>, <Par> [, <Basis>] )"
+  },
+  "ACCRINT": {
+     "prefix": "ACCRINT",
+     "body": [
+        "ACCRINT"
+     ],
+     "description": "ACCRINT ( <Issue>, <First_interest>, <Settlement>, <Rate>, <Par>, <Frequency> [, <Basis>] [, <Calc_method>] )"
+  },
+  "ABS": {
+     "prefix": "ABS",
+     "body": [
+        "ABS"
+     ],
+     "description": "ABS ( <Number> )"
+  }
+}

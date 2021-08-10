@@ -1,0 +1,41 @@
+{
+    "name": "dax-language",
+    "displayName": "huyza-dax-lang",
+    "description": "A language support for DAX (Data Analytical Expressions) for VS Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "publisher": "huyza",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/microsoft/pylance-release"
+	},
+    "keywords": [
+        "dax"
+    ],
+    "icon": "images/icon.png",
+    "contributes": {
+        "languages": [{
+            "id": "dax-language",
+            "aliases": ["DAX", "dax-language"],
+            "extensions": [".dax"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dax-language",
+            "scopeName": "source.dax",
+            "path": "./syntaxes/dax.grammer.json"
+        }],
+        "snippets": [
+            {
+                "language": "dax-language",
+                "path": "./snippets/dax.lang.snippets.json",
+                "scope": "DAX, dax"
+            }
+        ]
+    }
+}

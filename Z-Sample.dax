@@ -1,0 +1,26 @@
+MeasureName1 :=
+
+-- DAX in-line comment style 1
+// DAX in-line comment style 2
+
+/*
+    DAX block comment
+*/
+
+
+VAR _String = "This is a string"
+VAR _Num123 = 0123456789
+VAR _Arithmetic = 12.156 + 34.0 - 56 ( 1 * 1.598 ) + ( 2 / 1 )
+
+VAR _Name1 = 
+    CALCULATE( 
+        SUM('Fact'[Column1]), 
+        KEEPFILTERS( 'Date'[DateColumn] >= DATEVALUE("1/1/2021") && 'Date'[DateColumn] <= DATEVALUE("12/31/2021")),
+        'Dimension'[Column3] == 69,
+        'Dimension'[Column5] IN {"Array", "Constructor"},
+        _Num123 > 0
+    )
+
+RETURN
+
+_Name1
